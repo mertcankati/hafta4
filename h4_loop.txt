@@ -1,0 +1,18 @@
+raw="Matematikçiler örüntüleri araştırır ve bunları yeni konjektürler formüle etmekte kullanırlar"
+kelimeler= raw.split(" ")
+
+def donustur(aa):
+   aout=[]
+   for i in aa:
+      sayac=0
+      for harf in i:
+           sayac+=1
+      print(sayac)
+      aout.append(sayac)
+   return aout
+b=donustur(kelimeler)
+
+print(b)
+
+
+Split için + verecektiniz belirtmemi söylediniz.
